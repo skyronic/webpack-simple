@@ -1,0 +1,14 @@
+{
+	"component": {
+		"desc": "Create a new Vue Component in a `.vue` format",
+		"file": "component.vue",
+		"target": "src/{{ name }}.vue",
+		"example": "vue make component widgets/CounterWidget"
+	},
+	"directive": {
+		"desc": "Create a new Vue directive",
+		"file": "directive.js",
+		"target": "src/directives/{{ name }}.js",
+		"example": "vue make directive DatePicker"
+	}
+}
